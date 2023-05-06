@@ -1,0 +1,147 @@
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:visited{color:white;}
+
+body
+{
+    color : black;
+    background-color:white;
+    margin: auto;
+    font-family: 'NEXONFootballGothicBA1';
+}
+
+.wrapper
+{   
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding: 0;
+}
+
+h1
+{
+    font-size:500%;
+    color: white;
+}
+
+h1, span
+{
+    display: inline-block;
+}
+
+h3
+{
+    text-align: center;
+    font-size : 300%;
+    line-height: 80%;
+}
+
+span
+{
+    flex:0 0 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p
+{
+    font-size: 130%;
+    margin: 110px;
+    color: white;
+}
+
+li
+{
+    color: white;
+    list-style: none;
+    width: 10%;
+    margin: auto;
+}
+
+ul
+{
+    display: flex;
+    text-align: center;
+}
+
+.Foot
+{
+    margin-top: auto !important;
+
+}
+
+
+.MainMenu
+{
+    background-color: black;
+    font-size: 120%;
+    box-sizing: border-box;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.SubText
+{
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #b6a1a148;
+    background-color: rgba(160, 133, 133, 0.295);
+}
+
+
+.WallPaper
+{
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+.CreateAccount
+{
+    color: white
+}
+
+.Foot
+{
+    color: black;
+    background-color: rgb(211, 211, 211);
+}
+
+
+.MainText
+{
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.MiniText
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.MenuText
+{
+    display: block;
+}
+
+.Logo
+{
+    width:100px;
+}
+@font-face 
+{
+    font-family: 'NEXONFootballGothicBA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXONFootballGothicBA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
