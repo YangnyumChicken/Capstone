@@ -29,6 +29,9 @@ const output = {
     q1 : (req,res)=>{
         res.render("home/q1");
     },
+    q2 : (req,res)=>{
+        res.render("home/q2");
+    },
 }
 
 const process = {

@@ -22,4 +22,6 @@ router.get('/ranking',ctrl.output.ranking);
 router.get('/challenge',ctrl.output.challenge);
 
 router.get('/q1',ctrl.output.q1);
+
+router.get('/q2',ctrl.output.q2);
 module.exports = router;
