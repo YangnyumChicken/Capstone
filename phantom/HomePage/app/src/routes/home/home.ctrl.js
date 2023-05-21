@@ -32,6 +32,9 @@ const output = {
     q2 : (req,res)=>{
         res.render("home/q2");
     },
+    q3 : (req,res)=>{
+        res.render("home/q3");
+    },
 }
 
 const process = {

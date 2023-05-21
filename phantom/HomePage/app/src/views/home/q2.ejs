@@ -4,18 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/home/style.css">
-    <script src="/js/home/base64.js" defer></script>
-    <title>Challenge02 Base64</title>
+    <title>Web04 ASCII</title>
 </head>
 <body>
-    <form class="Challeng02">
-        BASE64 DECODE 문제입니다.
-        <br>https://www.base64decode.org/
-        <h2>- Password</h2> <h2 id="output"> </h2>
-        <script>EncodeSolve(Solve);</script>
-        <input id ="Solve2"type="text">
-        <button type="button" onclick="checkAnswer()">전송</button>
-    </form>
+    A$Cl1 ⓒ0de
+    <script>
+    document.addEventListener("keydown", checkKeyPressed, false);
+    var solve = "";
+    var passCount = 0;
+
+    function checkKeyPressed(e) 
+    {
+	    if (e.keyCode === 65 && solve ==="A") 
+        {
+            solve += "S";
+	    }
+        else if (e.keyCode === 83 && solve ==="")
+        {
+            solve +="A";
+        }
+        else if (e.keyCode === 79 && solve ==="AS")
+        {
+            solve +="C";
+        }
+        else if (e.keyCode === 89 && solve ==="ASC" || solve ==="ASCI")
+        {
+            solve +="I";
+        }
+        else
+        {
+            solve ="";
+        }
+
+
+        if (solve ==="ASCII")
+        {
+            alert("잘했어");
+            flag();
+        }
+    }
+    </script>
 </body>
 </html>

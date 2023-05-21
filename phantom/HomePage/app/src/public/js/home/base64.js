@@ -29,8 +29,7 @@ function checkAnswer()
 
     if (input === Solve) 
     {
-        alert("잘했어")
-        flag();
+        alert("잘했지만")
     } 
     else 
     {
